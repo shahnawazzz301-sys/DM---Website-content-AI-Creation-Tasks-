@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuickBite</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial;background:#fff7f2;color:#222}
+header{padding:18px 7%;display:flex;justify-content:space-between;background:#fff;box-shadow:0 2px 10px #0001}
+.logo{font-size:26px;font-weight:800;color:#e23744}nav a{margin-left:22px;color:#222;text-decoration:none;font-weight:bold}
+.hero{padding:80px 7%;min-height:500px;display:flex;align-items:center;justify-content:space-between;gap:40px;background:linear-gradient(135deg,#fff7f2,#ffe6da)}
+.hero-text{max-width:600px}.badge{color:#d52d3c;font-weight:bold}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.02;margin:18px 0}
+.hero p{font-size:19px;color:#666;line-height:1.6}.cta{display:inline-block;margin-top:15px;padding:15px 25px;background:#e23744;color:white;text-decoration:none;border-radius:10px;font-weight:bold}
+.card{background:white;padding:25px;border-radius:20px;box-shadow:0 15px 40px #0002;width:330px}.food{height:210px;border-radius:16px;background:linear-gradient(135deg,#ffd36b,#e23744);display:grid;place-items:center;font-size:90px}
+.features{padding:60px 7%}.features h2{text-align:center}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}.box{background:#fff;padding:25px;border-radius:16px}
+footer{background:#222;color:white;text-align:center;padding:25px}@media(max-width:800px){nav{display:none}.hero{flex-direction:column;text-align:center}.card{width:100%;max-width:350px}.grid{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="logo">QuickBite</div><nav><a href="#">Home</a><a href="#features">Features</a><a href="#">Offers</a><a href="#">Contact</a></nav></header>
+<section class="hero"><div class="hero-text"><span class="badge">🍔 Fast • Fresh • Nearby</span><h1>Your favourite food, delivered fast.</h1>
+<p>Discover restaurants around you and get delicious food delivered to your doorstep.</p><a class="cta" href="#features">Order Now →</a></div>
+<div class="card"><div class="food">🍕</div><h3>Hot & Fresh Pizza</h3><p>Fresh food from your favourite local restaurants.</p></div></section>
+<section class="features" id="features"><h2>Why customers love QuickBite</h2><div class="grid">
+<div class="box"><h3>⚡ Fast Delivery</h3><p>Track orders and get fresh food quickly.</p></div>
+<div class="box"><h3>🍽️ Wide Choice</h3><p>Explore restaurants and cuisines for every craving.</p></div>
+<div class="box"><h3>🎁 Great Offers</h3><p>Save with exclusive discounts and meal deals.</p></div>
+</div></section><footer>QuickBite • Food delivered with a smile</footer></body></html>
